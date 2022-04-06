@@ -219,13 +219,13 @@ a {
 #workscontainer .container .work-description .languages {
   width: 80%;
   display: flex;
-  justify-content: space-between;
+  column-gap: 10px;
   list-style: none;
   flex-wrap: wrap;
 }
 
 #workscontainer .container .work-description .languages .lang {
-  width: 50px;
+ padding: 0 20px;
   height: 24px;
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -234,6 +234,7 @@ a {
   border-radius: 8px;
   color: #6070ff;
   background: #ebebff;
+  margin-bottom: 10px;
 }
 
 #workscontainer .container .work-description .languages .lang1 {
