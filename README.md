@@ -15,7 +15,7 @@ Showcasing my portfolio through esctatic web design project.
 ## Live Demo
 
 [Live Demo Link]
-(https://epaltechs.github.io/Epaltechs/Popup-Window)
+(Coming up soon!)
 ​
 ## Getting Started
 To get a local copy up and running, follow these simple steps:
