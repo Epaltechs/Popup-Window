@@ -13,8 +13,6 @@ Showcasing my portfolio through esctatic web design project.
 
 
 ## Live Demo
-
-[Live Demo Link]
 (https://epaltechs.github.io/Popup-Window/))
 ​
 ## Getting Started
