@@ -13,9 +13,7 @@ Showcasing my portfolio through esctatic web design project.
 
 
 ## Live Demo
-
-[Live Demo Link]
-(Coming up soon!)
+[Go Live](https://epaltechs.github.io/Popup-Window)
 ​
 ## Getting Started
 To get a local copy up and running, follow these simple steps:
@@ -27,9 +25,8 @@ To get a local copy up and running, follow these simple steps:
 - go to the repository folder in your command prompt `cd Setup-Portfolio`
 
 
-## Authors
-👤 **Author1**
-## Emmnanuel Paul
+## 👤 Author
+### Emmnanuel Paul
 - GitHub: [https://github.com/Epaltechs/Popup-Window]
 - LinkedIn: [https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/]
 - Twitter: [http://twitter.com/@emmapaul247].
