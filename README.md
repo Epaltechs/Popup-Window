@@ -25,7 +25,7 @@ To get a local copy up and running, follow these simple steps:
 - go to the repository folder in your command prompt `cd Setup-Portfolio`
 
 
-##👤 Author
+## 👤 Author
 ### Emmnanuel Paul
 - GitHub: [https://github.com/Epaltechs/Popup-Window]
 - LinkedIn: [https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/]
