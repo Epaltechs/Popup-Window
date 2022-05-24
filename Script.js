@@ -30,7 +30,7 @@ const projects = [
 		description:'A daily selection of privately personalized reads; no accounts or sign-ups required.',
 		techUse: ['html', 'css', 'javaScript'],
 		projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
-		projectSource: 'https://epaltechs.github.io/Setup-Portfolio',
+		projectSource: 'https://github.com/Epaltechs/Setup-Portfolio',
 	},
 
 	{
@@ -44,7 +44,7 @@ const projects = [
 			'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming <br> their friends.',
 		techUse: ['html', 'Ruby on rails', 'css', 'javaScript'],
 		projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
-		projectSource: 'https://epaltechs.github.io/Setup-Portfolio',
+		projectSource: '/https://github.com/Epaltechs/Setup-Portfolio',
 	},
 
 	{
@@ -58,7 +58,7 @@ const projects = [
 			'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
 		techUse: ['html', 'Ruby on rails', 'css', 'javaScript'],
 		projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
-		projectSource: 'https://epaltechs.github.io/Setup-Portfolio',
+		projectSource: 'https://github.com/Epaltechs/Setup-Portfolio',
 	},
 
 	{
@@ -72,7 +72,7 @@ const projects = [
 			'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
 		techUse: ['html', 'Ruby on rails', 'css', 'javaScript'],
 		projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
-		projectSource: 'https://epaltechs.github.io/Setup-Portfolio',
+		projectSource: 'https://github.com/Epaltechs/Setup-Portfolio',
 	},
 ];
 let mainContainer = document.getElementById('workscontainer');
@@ -105,7 +105,7 @@ function popupFunc(id) {
                     </p>
                     <div class="pop-items">
                         <ul class="languages">
- ${oneCard.techUse.map((el)=>`<li class="lang">${el}</li>`).join('')}
+                          ${oneCard.techUse.map((el)=>`<li class="lang">${el}</li>`).join('')}
                         </ul>
                         <div class="bottom-bar"></div>
                         <div class="navigation-links">
@@ -157,7 +157,8 @@ function worksContainer() {
       <p class="description-text">${val.description}</p>
       <ul class="languages">
        ${val.techUse.map((el)=>`<li class="lang">${el}</li>`).join('')}
-      </ul>
+      </ul><br>
+
       <button class="btn openPopup" id="firstBtn" type="submit" onclick="popupFunc(${val.id})">See Project</button>
   </div>
 </div>`:
@@ -179,7 +180,7 @@ function worksContainer() {
                     <p class="description-text">${val.description}</p>
                     <ul class="languages">
                         ${val.techUse.map((el)=>`<li class="lang">${el}</li>`).join('')}
-                    </ul>
+                    </ul><br>
                     <button class="btn openPopup" id="secondBtn" onclick="popupFunc(${val.id})" type="submit">See
                         Project</button>
                 </div>

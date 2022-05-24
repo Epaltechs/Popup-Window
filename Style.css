@@ -218,14 +218,18 @@ a {
 
 #workscontainer .container .work-description .languages {
   width: 80%;
-  display: flex;
-  column-gap: 10px;
+
+  /* display: flex;
+  justify-content: space-between; */
   list-style: none;
-  flex-wrap: wrap;
 }
 
-#workscontainer .container .work-description .languages .lang {
- padding: 0 20px;
+.lang {
+  float: left;
+  margin-right: 14px;
+  padding: 0 10px;
+
+  /* width: 120px; */
   height: 24px;
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -238,7 +242,7 @@ a {
 }
 
 #workscontainer .container .work-description .languages .lang1 {
-  width: 40px;
+  width: 50px;
   height: 24px;
   font-family: "Poppins", sans-serif;
   display: flex;
